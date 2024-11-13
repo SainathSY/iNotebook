@@ -23,7 +23,6 @@ const Login = () => {
     
         e.preventDefault();
         const response = await fetch(`${host}/api/auth/login`, {
-            // mode: 'no-cors',
             method: "POST",
             headers: {
                 "Content-Type": "application/json",

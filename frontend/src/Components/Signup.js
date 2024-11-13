@@ -22,7 +22,6 @@ const Signup = () => {
 
         e.preventDefault();
         const response = await fetch(`${host}/api/auth/createUser`, {
-            mode: 'no-cors',
             method: "POST",
             headers: {
                 "Content-Type": "application/json",
