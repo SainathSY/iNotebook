@@ -8,7 +8,7 @@ const cors = require('cors');
 const app = express();
 
 app.use(cors({
-  origin: ["http://localhost:3000"],
+  origin: ["https://i-notebook-frontend-steel.vercel.app"],
   methods: ['GET', 'POST','PUT','DELETE', 'OPTIONS'],
   credentials: true
 }));
