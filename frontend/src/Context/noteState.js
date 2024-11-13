@@ -4,8 +4,8 @@ import NoteContext from "./noteContext";
 const NoteState = (props) => {
   const initialnotes = [];  
   // const host = process.env.REACT_APP_SERVER_URL; //for using locally
-  
-  const host="https://i-notebook-backend-two.vercel.app"
+
+  const host="https://i-notebook-backend-xi.vercel.app"
   console.log(host);
 
   const [alert, setAlert] = useState({message:"",type:""});
